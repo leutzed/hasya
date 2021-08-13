@@ -5,7 +5,7 @@
 export default {
     bail: 1,
     clearMocks: true,
-    collectCoverage: true,
+    preset: "ts-jest",
     coverageDirectory: "coverage",
     coverageProvider: "v8",
     roots: ["<rootDir>/src"],
