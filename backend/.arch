@@ -1,0 +1,15 @@
+Presentation:
+Express <- Adapter (transforma o req e res do Express em um req e res customizado)
+            Adapter -> Recebe qualquer controller
+
+Controller -> Precisa um Adapter (interface) que implementa determinado seviço
+
+Domain:
+AddAccount (protocolo que segue a regra de negócio) -> DbAddAccount
+
+Data:
+DbAddAccount (função que se comunica diretamente com o banco) -> interface Encrypter -> Adapter (Bcrypt)
+
+
+Infra: Interfaces para inverter a dependências de libs externas e a Data layer
+ex: BcryptAdapter -> Bcrypt, AddUserMongoRepo -> MongoDB
