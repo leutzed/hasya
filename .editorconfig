@@ -3,7 +3,7 @@
 # top-most EditorConfig file
 root = true
 
-[*]
+[*.{ts,js}]
 indent_style = space
 trim_trailing_whitespace = true
 end_of_line = lf
