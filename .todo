@@ -1,8 +1,0 @@
-Backend:
-	- Containers
-	- Mongo
-	- node backend
-	- front end
-	[ ] Makefile com comandos para subir/descer os Containers
-	[ ] Docker-compose principal
-	[ ] Dockerfiles?
