@@ -1,20 +1,17 @@
 {
-    "compileOnSave": false,
-    "compilerOptions": {
-        "rootDir": "./src",
-        "baseUrl": "./src",
-        "module": "commonjs",
-        "target": "es2015",
-        "sourceMap": true,
-        "strictNullChecks": true,
-        "noImplicitAny": false,
-        "esModuleInterop": true,
-        "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
-        "paths": {
-            "@/*": ["*"]
-        }
-    },
-    "include": ["src/**/*.ts"],
-    "exclude": ["node_modules", "dist", "src/_test"]
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
 }

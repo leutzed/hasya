@@ -1,7 +1,7 @@
 install: 
 	yarn --cwd ./backend && yarn --cwd ./frontend
 up:
-	docker-compose up --build -d
+	cd backend && docker-compose up --build
 
 down:
-	docker-compose down
+	cd backend && docker-compose down
